@@ -1,0 +1,29 @@
+# Robots.txt for Gentlemen Republic - Best Hair Gel for Men
+# This file tells search engines which pages they can and cannot crawl
+
+User-agent: *
+Allow: /
+
+# Allow all pages to be indexed
+Allow: /index.html
+Allow: /about.html
+Allow: /privacy-policy.html
+Allow: /author.html
+Allow: /product-refined-gel.html
+Allow: /product-oceano-refined-combo.html
+
+# Allow CSS and other assets
+Allow: /styles.css
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.svg
+
+# Sitemap location
+Sitemap: https://best hair gel for men.vercel.app/sitemap.xml
+
+# Crawl-delay (optional - be respectful to servers)
+Crawl-delay: 1
